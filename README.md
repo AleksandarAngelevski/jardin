@@ -5,3 +5,7 @@ How to run the project
 4. ( cd ./webDizajnProekt/web_dizajn_proekt/ )
 5. Install the required libraries - run the command ( pip install -r requirements.txt )
 6. Run the command ( python3 manage.py runserver )
+
+
+# Description
+Gardening app that contains info about flora, i worked with the https://perenual.com/ api
