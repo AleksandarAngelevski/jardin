@@ -8,5 +8,5 @@ How to run the project
 
 
 # Description
-Gardening app that contains info about flora, i worked with the https://perenual.com/ api
+Gardening app that contains info about flora, i worked with the https://perenual.com/ api.<br/>
 This project was done for the course Introduction to web design.
