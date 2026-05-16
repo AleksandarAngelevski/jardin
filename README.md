@@ -1,12 +1,55 @@
-How to run the project
-1. Install python
-2. Create a virtual environment ( python -m venv /path/to/new/virtual/environment )
-3. Clone the project
-4. ( cd ./jardin/web_dizajn_proekt/ )
-5. Install the required libraries - run the command ( pip install -r requirements.txt )
-6. Run the command ( python3 manage.py runserver )
+# 🌿 Jardin — Gardening & Flora Explorer
 
+A web application that lets you discover and explore plant information, powered by the [Perenual API](https://perenual.com/). Built as a course project for *Introduction to Web Design*.
 
-# Description
-Gardening app that contains info about flora, i worked with the https://perenual.com/ api.<br/>
-This project was done for the course Introduction to web design.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Python 3](https://www.python.org/downloads/) installed on your system
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd ./jardin/web_dizajn_proekt/
+   ```
+
+3. **Create and activate a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate        # macOS/Linux
+   venv\Scripts\activate           # Windows
+   ```
+
+4. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Start the development server**
+   ```bash
+   python3 manage.py runserver
+   ```
+
+6. Open your browser and visit `http://127.0.0.1:8000`
+
+---
+
+## 🌱 About
+
+Jardin is a Django-based gardening app that provides detailed information about plants and flora. It integrates with the [Perenual API](https://perenual.com/) to fetch real plant data including care guides, species details, and more.
+
+---
+
+## 🛠️ Built With
+
+- **Python / Django** — backend framework
+- **Perenual API** — plant and flora data
